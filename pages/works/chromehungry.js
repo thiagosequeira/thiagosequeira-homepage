@@ -5,6 +5,8 @@ import {
   List,
   ListItem,
   SimpleGrid,
+  Heading,
+  Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -18,12 +20,12 @@ const Work = () => (
         Chrome Hungry <Badge>2021</Badge>
       </Title>
       <P>
-        Chrome Hungry is an object rain game, where you enter the body of google chrome and have to survive by eating RAMs. 
+      Chrome Hungry es un juego de lluvia de objetos, donde entras en el cuerpo de google chrome y tienes que sobrevivir comiendo RAMs.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>Desktop</span>
         </ListItem>
         <ListItem>
@@ -37,6 +39,11 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
+
+
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Media</Center>
+      </Heading>
 
       <WorkImage src="/images/works/chromehungry_01.png" alt="STYLY" />
       <SimpleGrid columns={2} gap={2}>

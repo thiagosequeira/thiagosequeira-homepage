@@ -20,11 +20,11 @@ const Work = () => (
         integrar <Badge>2020-now</Badge>
       </Title>
       <P>
-      Integrar is a national telecommunications company. I have joined the company as Community Manager to increase the feedback with customers. Currently I am also working as frontend developer, constantly updating the website.
+      Integrar es una empresa nacional de telecomunicaciones. Me he incorporado a la empresa como Community Manager para aumentar el feedback con los clientes. Actualmente también estoy trabajando como desarrollador frontend, actualizando constantemente el sitio web.
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>web, social media</span>
         </ListItem>
         <ListItem>
@@ -48,7 +48,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Media</Center>
       </Heading>
 
       <SimpleGrid columns={2} gap={2}>

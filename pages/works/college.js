@@ -19,12 +19,12 @@ const Work = () => (
         College Exercises <Badge>2021</Badge>
       </Title>
       <P>
-        Exercises of the subject Computer Science I and II. For the Aeronautical University Institute.
+      Ejercicios de la materia Informática I y II. Para el Instituto Universitario Aeronáutico.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>Desktop</span>
         </ListItem>
         <ListItem>
@@ -41,7 +41,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Media</Center>
       </Heading>
 
       <WorkImage src="/images/works/college.png" alt="Pichu*Pichu" />

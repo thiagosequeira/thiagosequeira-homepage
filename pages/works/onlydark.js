@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, Heading, Center} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -11,27 +11,28 @@ const Work = () => (
         Only Dark <Badge>2021-</Badge>
       </Title>
       <P>
-      Only Dark is a color scheme, customized user interface theme for Visual Studio Code. 
-      It has been designed by the author of the original Only Dark colors. 
-      Carefully selected shades of colors are the foundation of an uncompromising, 
-      non-distractive user interface. The single goal of Only Dark is to let you focus on your code.
+      Only Dark es un esquema de colores, tema de interfaz de usuario personalizado para Visual Studio Code. Ha sido diseñado por el autor de los colores originales de Only Dark. Los tonos de colores cuidadosamente seleccionados son la base de una interfaz de usuario sin concesiones y sin distracciones. El único objetivo de Only Dark es permitirle centrarse en su código.
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Download</Meta>
+          <Meta>Descargar</Meta>
           <Link href="https://marketplace.visualstudio.com/items?itemName=only-dark.only-dark">
-            Only Dark Download <ExternalLinkIcon mx="2px" />
+            Descargar Only Dark <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Term</span>
+          <span>NodeJS</span>
         </ListItem>
       </List>
+
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Media</Center>
+      </Heading>
 
       <WorkImage src="/images/works/onlydark_01.png" alt="Inkdrop" />
     </Container>

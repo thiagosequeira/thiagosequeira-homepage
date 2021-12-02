@@ -9,7 +9,6 @@ import {
   List,
   ListItem,
   Icon,
-  useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -19,28 +18,20 @@ import Section from '../components/section'
 import {
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoLinkedin
+  IoLogoLinkedin,
+  IoLogoGoogle
 } from 'react-icons/io5'
 
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-        Hello, I&apos;m a frontend developer based in Argentina!
-      </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Thiago Sequeira
           </Heading>
-          <p>Digital Craftsman ( Developer / Community Manager / Designer )</p>
+          <p>Creador Digital ( Desarrollador / Community Manager / Diseñador )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -63,24 +54,19 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Sobre Thiago
         </Heading>
         <Paragraph>
-          Thiago is a freelance and a front-end developer based in Córdoba with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code.  When not online, he loves
-          hanging out playing videogames. Currently, he is living off of his own
-          product called{' '}
+          Thiago es un desarrollador frontend freelance con sede en Córdoba con una pasión por la construcción de servicios digitales. Tiene un don para todo lo relacionado con el lanzamiento de productos, desde la planificación y el diseño hasta la resolución de problemas de la vida real con código. {/* Cuando no está conectado, le encanta pasar el rato jugando a los videojuegos. Actualmente, trabaja en su propio emprendimiento llamado{' '}
           <NextLink href="/works/onlydark">
-            <Link>Only Dark</Link>
-          </NextLink>
-          .
+            <Link>pōrta</Link>
+          </NextLink> */}
+          
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Ver proyectos
             </Button>
           </NextLink>
         </Box>
@@ -88,34 +74,25 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Biografia
         </Heading>
         <BioSection>
           <BioYear>2002</BioYear>
-          Born in Córdoba, Argentina
+          Nacido en Córdoba, Argentina
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Admission to the Aeronautical University Institute. Student of Computer Engineering
+          Admisión al Instituto Universitario Aéronautico. Estudiante de Ingenieria Informática.
         </BioSection>
         <BioSection>
-          <BioYear>2019 to present</BioYear>
-          Works as a freelance
+          <BioYear>2019 - Actualidad</BioYear>
+          Trabajar como freelance.
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Music, Playing videogames, Sports, Learn, Machine Learning
-        </Paragraph>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
+          En la web
         </Heading>
         <List>
           <ListItem>
@@ -126,6 +103,17 @@ const Home = () => (
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
                 @thiagosequeira
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="mailto:thiagosequeira02@gmail.com" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoGoogle} />}
+              >
+                Email
               </Button>
             </Link>
           </ListItem>

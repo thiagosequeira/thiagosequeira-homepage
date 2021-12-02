@@ -53,7 +53,7 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>Windows 2000/XP</span>
         </ListItem>
         <ListItem>
@@ -77,7 +77,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Media</Center>
       </Heading>
 
       <UnorderedList my={4}>

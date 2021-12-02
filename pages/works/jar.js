@@ -19,7 +19,7 @@ const Work = () => (
         Jornadas Argentinas de Robótica (JAR) <Badge>2021</Badge>
       </Title>
       <P>
-      The JAR offers a meeting place for the community of Argentine and regional researchers whose interest and dedication are oriented to robotics and related topics, favoring horizontal exchange between research groups, sharing experiences and enriching solutions to problems of common interest.
+      Las JAR ofrecen un espacio de encuentro para la comunidad de investigadores argentinos y regionales cuyo interés y dedicación se orientan a la robótica y temas afines, favoreciendo el intercambio horizontal entre grupos de investigación, compartiendo experiencias y enriqueciendo las soluciones a problemas de interés común.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -35,7 +35,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Media</Center>
       </Heading>
 
       <WorkImage src="/images/works/jar_01.png" alt="walknote" />

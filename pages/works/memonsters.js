@@ -4,7 +4,9 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid
+  SimpleGrid,
+  Heading,
+  Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -17,11 +19,11 @@ const Work = () => (
       <Title>
         Memonsters <Badge>2021</Badge>
       </Title>
-      <P>Memonsters is a 16-bit adventure game, based on the old Pokemon Red and Pokemon Blue. Blitz is a teenager whose dream is to conquer all the memonsters in his village and become the grand master of the memonsters, help him in his adventure and get them all! Will you be able to get all 3 legendary memonsters?</P>
+      <P>Memonsters es un juego de aventuras de 16 bits, basado en los antiguos Pokemon Rojo y Pokemon Azul. Blitz es un adolescente cuyo sueño es conquistar todos los memonsters de su pueblo y convertirse en el gran maestro de los memonsters, ¡ayúdale en su aventura y consíguelos todos! ¿Serás capaz de conseguir los 3 memonsters legendarios?</P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>Plataformas</Meta>
           <span>Desktop</span>
         </ListItem>
         <ListItem>
@@ -36,6 +38,11 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
+
+
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Media</Center>
+      </Heading>
 
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/memonsters_01.png" alt="mode.tokyo" />

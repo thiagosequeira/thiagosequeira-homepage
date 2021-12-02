@@ -16,22 +16,17 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Trabajos
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="onlydark" title="Only Dark" thumbnail={thumbOnlydark}>
-          Only Dark is a color scheme, customized user interface theme for Visual Studio Code
-          </WorkGridItem>
-        </Section>
         <Section>
           <WorkGridItem
             id="integrar"
             title="Integrar"
             thumbnail={thumbIntegrar}
           >
-            Website for a telecommunications company
+            Website Integrar SRL. Empresa Argentina de telecomunicaciones.
           </WorkGridItem>
         </Section>
 
@@ -41,7 +36,7 @@ const Works = () => (
             title="Jornadas Argentinas de Robótica (JAR)"
             thumbnail={thumbJAR}
           >
-            Website for the argentinian robotics conference
+            Website Jornadas Argentinas de Robótica. 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -50,23 +45,28 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Experiments
+          Proyectos
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="onlydark" title="Only Dark" thumbnail={thumbOnlydark}>
+          Only Dark es un esquema de colores, tema de interfaz de usuario personalizado para Visual Studio Code.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="memonsters"
             thumbnail={thumbMemonsters}
             title="Memonsters"
           >
-            Final project for the computer science II course, computer engineering
+            Proyecto final para la materia Informatica II. Ingenieria Informatica.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="chromehungry" thumbnail={thumbChromeHungry} title="Chrome Hungry">
-            Project idea for the computer science II course
+            Idea para proyecto final, Informatica II.
           </WorkGridItem>
         </Section>
         {/* <Section delay={0.3}>
@@ -92,7 +92,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="college" thumbnail={thumbCollege} title="College exercises">
-          Exercises of the subject computer science I and II
+          Ejercicios resueltos de la materia Informatica II. Ingenieria Informatica, IUA.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
