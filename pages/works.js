@@ -13,7 +13,7 @@ import thumbRickMorty from '../public/images/works/rick-morty.png' */
 import thumbCollege from '../public/images/works/college.png'
 
 const Works = () => (
-  <Layout title="Works">
+  <Layout title="Proyectos">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Trabajos
