@@ -44,7 +44,7 @@ const Work = () => (
         <Center>Media</Center>
       </Heading>
 
-      <WorkImage src="/images/works/college.png" alt="Pichu*Pichu" />
+      <WorkImage src="/images/works/college.png" alt="informatica" />
     </Container>
   </Layout>
 )

@@ -38,7 +38,7 @@ const Work = () => (
         <Center>Media</Center>
       </Heading>
 
-      <WorkImage src="/images/works/jar_01.png" alt="walknote" />
+      <WorkImage src="/images/works/jar_01.png" alt="jar" />
     </Container>
   </Layout>
 )

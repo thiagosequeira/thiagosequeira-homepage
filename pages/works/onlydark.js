@@ -34,7 +34,7 @@ const Work = () => (
         <Center>Media</Center>
       </Heading>
 
-      <WorkImage src="/images/works/onlydark_01.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/onlydark_01.png" alt="onlydark" />
     </Container>
   </Layout>
 )

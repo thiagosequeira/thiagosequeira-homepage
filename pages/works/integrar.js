@@ -52,10 +52,10 @@ const Work = () => (
       </Heading>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/integrar_02.jpg" alt="walknote" />
-        <WorkImage src="/images/works/integrar_01.jpg" alt="walknote" />
+        <WorkImage src="/images/works/integrar_02.jpg" alt="integrar" />
+        <WorkImage src="/images/works/integrar_01.jpg" alt="integrar" />
       </SimpleGrid>
-      <WorkImage src="/images/works/integrar_03.png" alt="walknote" />
+      <WorkImage src="/images/works/integrar_03.png" alt="integrar" />
     </Container>
   </Layout>
 )

@@ -47,8 +47,8 @@ const Work = () => (
 
       <WorkImage src="/images/works/chromehungry_01.png" alt="STYLY" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/chromehungry_02.png" alt="mode.tokyo" />
-        <WorkImage src="/images/works/chromehungry_03.png" alt="mode.tokyo" />
+        <WorkImage src="/images/works/chromehungry_02.png" alt="chromehungry" />
+        <WorkImage src="/images/works/chromehungry_03.png" alt="chromehungry" />
       </SimpleGrid>
     </Container>
   </Layout>

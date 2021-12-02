@@ -45,10 +45,10 @@ const Work = () => (
       </Heading>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/memonsters_01.png" alt="mode.tokyo" />
-        <WorkImage src="/images/works/memonsters_02.png" alt="mode.tokyo" />
+        <WorkImage src="/images/works/memonsters_01.png" alt="memonsters" />
+        <WorkImage src="/images/works/memonsters_02.png" alt="memonsters" />
       </SimpleGrid>
-      <WorkImage src="/images/works/memonsters_03.jpg" alt="mode.tokyo" />
+      <WorkImage src="/images/works/memonsters_03.jpg" alt="memonsters" />
     </Container>
   </Layout>
 )
