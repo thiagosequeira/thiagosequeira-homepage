@@ -1,6 +1,4 @@
-# Takuya's Homepage
-
-[https://www.craftz.dog/](https://www.craftz.dog/)
+# Thiago Sequeira Homepage
 
 ## Tutorial
 
@@ -28,9 +26,3 @@ $PROJECT_ROOT
 │   # Static files for images and 3d model file
 └── public
 ```
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
