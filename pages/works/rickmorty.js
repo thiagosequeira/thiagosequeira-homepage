@@ -5,37 +5,34 @@ import {
   List,
   ListItem,
   Heading,
-  Center
+  Center,
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="College Exercises">
+  <Layout title="rickmorty">
     <Container>
       <Title>
-        College Exercises <Badge>2021</Badge>
+        Rick and Morty API <Badge>2021</Badge>
       </Title>
-      <P>
-      Ejercicios de la materia Informática I y II. Para el Instituto Universitario Aeronáutico.
-      </P>
+      <P>Website de la famosa serie Rick and Morty. Utilizando su respectiva API</P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Plataformas</Meta>
-          <span>Desktop</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C/C++</span>
+          <span>React, Webpack, SASS</span>
         </ListItem>
         <ListItem>
-          <Meta>Sourse</Meta>
-          <Link target="_blank" href="https://github.com/thiagosequeira/college-exercises">
-            https://github.com/thiagosequeira/college-exercises{' '}
-            <ExternalLinkIcon mx="2px" />
+          <Meta>Presentation</Meta>
+          <Link target="_blank" href="https://thiagorickandmorty.netlify.app/">
+            https://thiagorickandmorty.netlify.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
@@ -44,7 +41,7 @@ const Work = () => (
         <Center>Media</Center>
       </Heading>
 
-      <WorkImage src="/images/works/college.png" alt="informatica" />
+      <WorkImage src="/images/works/rick-morty_01.png" alt="freeDBTagger" />
     </Container>
   </Layout>
 )

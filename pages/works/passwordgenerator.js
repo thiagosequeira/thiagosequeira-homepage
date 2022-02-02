@@ -5,7 +5,7 @@ import {
   List,
   ListItem,
   Heading,
-  Center
+  Center,
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -13,29 +13,28 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="College Exercises">
+  <Layout title="passwordgenerator">
     <Container>
       <Title>
-        College Exercises <Badge>2021</Badge>
+        Password Generator <Badge>2021</Badge>
       </Title>
       <P>
-      Ejercicios de la materia Informática I y II. Para el Instituto Universitario Aeronáutico.
+        Generador de Contraseñas con Javascript
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Plataformas</Meta>
-          <span>Desktop</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C/C++</span>
+          <span>HTML, CSS, Javascript</span>
         </ListItem>
         <ListItem>
-          <Meta>Sourse</Meta>
-          <Link target="_blank" href="https://github.com/thiagosequeira/college-exercises">
-            https://github.com/thiagosequeira/college-exercises{' '}
-            <ExternalLinkIcon mx="2px" />
+          <Meta>Presentation</Meta>
+          <Link target="_blank" href="https://thiagosequeira.github.io/passwordGenerator/">
+            https://thiagosequeira.github.io/passwordGenerator/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
@@ -44,7 +43,7 @@ const Work = () => (
         <Center>Media</Center>
       </Heading>
 
-      <WorkImage src="/images/works/college.png" alt="informatica" />
+      <WorkImage src="/images/works/password-generator.png" alt="freeDBTagger" />
     </Container>
   </Layout>
 )

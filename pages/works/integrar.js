@@ -29,14 +29,14 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://integrar.com.ar">
+          <Link target="_blank" href="https://integrar.com.ar">
             https://integrar.com.ar{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Social media</Meta>
-          <Link href="https://instagram.com/integrar.srl">
+          <Link target="_blank" href="https://instagram.com/integrar.srl">
             https://instagram.com/integrar.srl{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

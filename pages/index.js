@@ -31,7 +31,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Thiago Sequeira
           </Heading>
-          <p>Creador Digital ( Desarrollador / Community Manager / Diseñador )</p>
+          <p>Desarrollador Frontend</p>
         </Box>
         <Box
           flexShrink={0}
@@ -46,7 +46,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/thiago.jpg"
+            src="/images/pp.jpg"
             alt="Profile image"
           />
         </Box>

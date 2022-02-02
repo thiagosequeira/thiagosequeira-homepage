@@ -32,7 +32,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Sourse</Meta>
-          <Link href="https://github.com/thiagosequeira/memonsters/tree/Devs">
+          <Link target="_blank" href="https://github.com/thiagosequeira/memonsters/tree/Devs">
             https://github.com/thiagosequeira/memonsters/tree/Devs{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

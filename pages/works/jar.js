@@ -28,7 +28,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://jar.com.ar">
+          <Link target="_blank" href="https://jar.com.ar">
             https://jar.com.ar <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

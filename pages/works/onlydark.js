@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Descargar</Meta>
-          <Link href="https://marketplace.visualstudio.com/items?itemName=only-dark.only-dark">
+          <Link target="_blank" href="https://marketplace.visualstudio.com/items?itemName=only-dark.only-dark">
             Descargar Only Dark <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

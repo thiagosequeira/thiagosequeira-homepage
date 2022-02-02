@@ -8,8 +8,9 @@ import thumbIntegrar from '../public/images/works/integrar.png'
 import thumbJAR from '../public/images/works/jar.png'
 import thumbMemonsters from '../public/images/works/memonsters.png'
 import thumbChromeHungry from '../public/images/works/chrome-hungry.png'
-/* import thumbPasswordGenerator from '../public/images/works/password-generator.png'
-import thumbRickMorty from '../public/images/works/rick-morty.png' */
+import thumbPasswordGenerator from '../public/images/works/password-generator.png'
+import thumbRickMorty from '../public/images/works/rick-morty.png'
+import thumbSocialDashboard from '../public/images/works/socialdashboard.png'
 import thumbCollege from '../public/images/works/college.png'
 
 const Works = () => (
@@ -69,16 +70,21 @@ const Works = () => (
             Idea para proyecto final, Informatica II.
           </WorkGridItem>
         </Section>
-        {/* <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbPasswordGenerator} title="Password Generator">
+         <Section delay={0.3}>
+          <WorkGridItem id="passwordgenerator" thumbnail={thumbPasswordGenerator} title="Password Generator">
             Password generator website 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbRickMorty} title="Rick and Morty API">
-            Website of the famous Rick and Morty series. Using their respective API
+          <WorkGridItem id="rickmorty" thumbnail={thumbRickMorty} title="Rick and Morty API">
+          Website de la famosa serie Rick and Morty. Utilizando su respectiva API
           </WorkGridItem>
-        </Section> */}
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="socialdashboard" thumbnail={thumbSocialDashboard} title="Social Media Dashboard">
+          Social media dashboard con SASS y Javascript
+          </WorkGridItem>
+        </Section> 
       </SimpleGrid>
 
       <Section delay={0.4}>
