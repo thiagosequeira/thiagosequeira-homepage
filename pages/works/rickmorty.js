@@ -13,7 +13,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="rickmorty">
+  <Layout title="Rick and Morty">
     <Container>
       <Title>
         Rick and Morty API <Badge>2021</Badge>

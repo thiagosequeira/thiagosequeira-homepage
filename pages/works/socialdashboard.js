@@ -24,6 +24,11 @@ const Work = () => (
        theme switcher publicado por Frontend Mentor, 
        con el fin de mostrar mis habilidades como Desarrollador Web.
       </P>
+
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Challenge</Center>
+      </Heading>
+
       <UnorderedList my={4}>
         <ListItem>Sitio realizado con la metodología Mobile First.</ListItem>
         <ListItem>Sitio adaptable a diferentes tamaños de pantalla (responsive web design).</ListItem>

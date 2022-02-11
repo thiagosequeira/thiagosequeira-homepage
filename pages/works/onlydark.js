@@ -22,7 +22,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Plataformas</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Windows/macOS/Linux</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
